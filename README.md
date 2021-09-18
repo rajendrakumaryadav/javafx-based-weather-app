@@ -17,7 +17,7 @@
 
 ```bash
 ...
-WEATHER_MAP_API_KEY="7a3ca83c6afce91aaxxxxxxxxxxxxxxx";
+export WEATHER_MAP_API_KEY="7a3ca83c6afce91aaxxxxxxxxxxxxxxx";
     <ESC> :wq <RETURN>
 ```
 
