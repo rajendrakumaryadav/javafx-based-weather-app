@@ -28,8 +28,8 @@ WEATHER_MAP_API_KEY="7a3ca83c6afce91aaxxxxxxxxxxxxxxx";
 ```
 
 - After running app, output will be something like
+![Application demo output](https://user-images.githubusercontent.com/13816347/133889110-bbf6de41-6170-4f13-8ea9-b4b2baf7ba4a.gif "Running and displaying Application.")
 
-![Demo Application Output image Here](./demo-app.png "Output of Application.")
 
 - Application is not responsive. Need finishing work.
 
