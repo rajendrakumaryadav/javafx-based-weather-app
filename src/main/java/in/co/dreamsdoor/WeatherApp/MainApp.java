@@ -27,6 +27,7 @@ public class MainApp extends Application {
         Scene scene = new Scene(root);
         scene.getStylesheets().add("/styles/Styles.css");
         stage.setTitle("Weather Information");
+        stage.setResizable(false);
         stage.setScene(scene);
         stage.show();
     }
