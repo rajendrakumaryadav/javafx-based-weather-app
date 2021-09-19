@@ -15,25 +15,20 @@ public class MainApp extends Application {
         Font.loadFont(MainApp.class.getResource("/font/fafonts.ttf").toExternalForm(), 10);
     }
 
-    @Override
-    public void start(Stage stage) throws Exception {
-
-        Parent root = FXMLLoader.load(Objects.requireNonNull(getClass().getResource("/fxml/Scene.fxml")));
-
-        Scene scene = new Scene(root);
-
-        scene.getStylesheets()
-                .add("/styles/Styles.css");
-
-        stage.setTitle(
-                "Weather Information");
-        stage.setScene(scene);
-
-        stage.show();
-    }
-
     public static void main(String[] args) {
         launch(args);
+    }
+
+    @Override
+    public void start(Stage stage) throws Exception {
+        Parent root = FXMLLoader
+                .load(Objects.requireNonNull(getClass()
+                        .getResource("/fxml/Scene.fxml")));
+        Scene scene = new Scene(root);
+        scene.getStylesheets().add("/styles/Styles.css");
+        stage.setTitle("Weather Information");
+        stage.setScene(scene);
+        stage.show();
     }
 
 }
